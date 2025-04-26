@@ -38,6 +38,9 @@ Choose a stock, set quantity and price, then save.
 Check API Results in Browser:
 
 http://127.0.0.1:8000/api/stocks/ to see all stocks.
+
 http://127.0.0.1:8000/api/orders/ to see all orders.
+
 http://127.0.0.1:8000/api/portfolio/value/ to see total portfolio value.
+
 http://127.0.0.1:8000/api/portfolio/stock/1/ (replace 1 with your stock ID) to check investment in a stock.
