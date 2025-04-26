@@ -48,18 +48,22 @@ http://127.0.0.1:8000/api/portfolio/stock/1/ (replace 1 with your stock ID) to c
 
 
 
-/api/stocks/ 
-Create and list stocks 
-Allow users to add new stocks and view all available stocks
+/api/stocks/ :
+- Create and list stocks
 
-/api/orders/ 
-Create and list orders
-Allow users to place orders (choose stock, quantity, price) and see all orders
+- Allow users to add new stocks and view all available stocks
 
-/api/portfolio/value/ 
+/api/orders/ :
+- Create and list orders
+
+- Allow users to place orders (choose stock, quantity, price) and see all orders
+
+/api/portfolio/value/ :
 Get total portfolio value 
+
 Calculate total money spent (sum of quantity × price for all orders)
 
-/api/portfolio/stock/<stock_id>/ 
-Get value per stock 
-Calculate total investment for a specific stock
+/api/portfolio/stock/<stock_id>/ :
+- Get value per stock
+
+- Calculate total investment for a specific stock
