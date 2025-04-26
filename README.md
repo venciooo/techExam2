@@ -59,9 +59,9 @@ http://127.0.0.1:8000/api/portfolio/stock/1/ (replace 1 with your stock ID) to c
 - Allow users to place orders (choose stock, quantity, price) and see all orders
 
 /api/portfolio/value/ :
-Get total portfolio value 
+- Get total portfolio value 
 
-Calculate total money spent (sum of quantity × price for all orders)
+- Calculate total money spent (sum of quantity × price for all orders)
 
 /api/portfolio/stock/<stock_id>/ :
 - Get value per stock
